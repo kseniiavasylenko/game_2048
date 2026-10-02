@@ -3,15 +3,16 @@
 A classic 2048 puzzle game built with vanilla JavaScript using an object-oriented programming approach. The goal is to slide numbered tiles on a grid to combine them and create a tile with the number 2048.
 
 ## Live Preview
-[View Live Demo](https://your-username.github.io/project-name/)
+[View Live Demo](https://your-username.github.io/js_2048_game/)
 
 ## Design Reference
 [Figma Design File](https://www.figma.com/)
 
 ## Technologies Used
-* HTML
-* CSS / SCSS
-* JavaScript
+* HTML5
+* CSS3 / SCSS
+* JavaScript (ES6+, OOP, Modules)
+* Parcel / Mate Academy Scripts
 
 ## Getting Started
 
@@ -20,27 +21,20 @@ To get a local copy up and running, follow these simple steps.
 ### Prerequisites
 Make sure you have Node.js and npm installed on your machine.
 
-### Installation
+## Installation
+git clone https://github.com/your-username/project-name.git
+cd project-name
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/kseniia.vasylenko/game_2048.git](https://github.com/kseniia.vasylenko/game_2048.git)
-   cd project-name
-2. Install dependencies:
-    Bash
-    npm install
-  # or
-    yarn install
-3. Run the project locally:
-    Bash
-    npm start
-  # or
-    yarn start
+npm install
+# or
+yarn install
 
-  ## Features
+npm start
+# or
+yarn start
 
- 1. Clean separation of concerns with an OOP Game class handling core game logic and main.js managing the DOM.
+## Features
+The application features a clean separation of concerns with an object-oriented Game class handling all core mechanics while main.js manages DOM updates and event listeners. Players can enjoy smooth keyboard controls using the arrow keys alongside interactive UI buttons for starting and restarting the game. Additionally, it includes dynamic status tracking that automatically detects active gameplay, win conditions, and losses in real time.
 
- 2. Smooth keyboard controls (arrow keys) and interactive UI buttons for starting and restarting the game.
-
- 3. Dynamic status tracking for active gameplay, wins, and losses.
+## Author
+Created by Ksenia Vasylenko.
